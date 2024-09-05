@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.logo {
+    width: 219.54px;
+    height: 36px;
+
+
+
+
+}
+
+header {
+    width: 100%;
+    /* max-width: 1440px; */
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: #F3F3F3; */
+}
+
+nav>ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 68px;
+    gap: 30px;
+
+}
+
+.menu {
+    display: none;
+}
+
+#bar {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+nav,
+ul>li {
+
+
+    display: inline;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    gap: 30px;
+
+
+
+}
+
+#button {
+
+    width: 225px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+    border: 1px, solid black;
+
+
+
+}
+
+main {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 515px;
+   
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.heading>h1 {
+
+    font-family: Space Grotesk;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 75.56px;
+    text-align: left;
+    word-spacing: 0px;
+    
+
+}
+
+.card1 {
+    width: 530px;
+    height: 481;
+    
+}
+
+.card2 {
+    width: 600px;
+    height: 481;
+   
+}
+.paragraph>p{
+    font-family: Space Grotesk;
+font-size: 25px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+margin-top: 10px;
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    nav,
+    ul>li {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .card1{
+        width:100%;
+    }
+    .card2{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav,
+    ul>li {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu {
+        margin-left: 40px;
+    }
+
+    nav>ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 68px;
+        gap: 10px;
+    }
+}
